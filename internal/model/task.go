@@ -5,9 +5,10 @@ import "time"
 type TaskType string
 
 var (
-	TASK_TYPE_JOB   = TaskType("Job")
-	TASK_TYPE_WATCH = TaskType("Watch")
-	TASK_TYPE_READ  = TaskType("Read")
+	TASK_TYPE_JOB   = TaskType("JOB")
+	TASK_TYPE_WATCH = TaskType("WATCH")
+	TASK_TYPE_READ  = TaskType("READ")
+	TASK_TYPE_FOOD  = TaskType("FOOD")
 )
 
 type Task struct {
